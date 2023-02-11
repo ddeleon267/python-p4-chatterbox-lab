@@ -4,6 +4,8 @@ import Search from "./Search";
 import MessageList from "./MessageList";
 import NewMessage from "./NewMessage";
 
+// GET, POST /messages (username, body)
+// PATCH, DELETE /messages/id (message body)
 const testUser = { username: "Duane" };
 
 function App() {
